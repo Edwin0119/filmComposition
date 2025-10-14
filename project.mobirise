@@ -24,7 +24,7 @@
         "display7Size": "1.1",
         "display4Font": "Inter Tight",
         "display4Size": 1.4,
-        "isRoundedImages": true,
+        "isRoundedImages": false,
         "isRoundedButtons": true,
         "isLargeButtons": true,
         "isGhostButtonBorder": true,
@@ -46,8 +46,8 @@
         "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "favicon": false,
-    "mbrsiteDomain": "x81tc2oyno",
+    "favicon": "@PROJECT_PATH@/assets/images/avf62exfr.webp",
+    "mbrsiteDomain": "7kibj5wrxj",
     "imageResize": false,
     "usedWebp": false,
     "robotsSwitcher": false,
@@ -434,7 +434,10 @@
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            "overflow": "hidden"
+            "overflow": "hidden",
+            ".media-container-row .mbr-text": {
+              "color": "#ffffff"
+            }
           },
           "_name": "footer04",
           "_sourceTheme": "startm5",

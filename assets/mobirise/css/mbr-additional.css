@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 2rem !important;
+  border-radius: 0 !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -1025,4 +1025,7 @@ a {
   padding-bottom: 2rem;
   background-color: #4e4544;
   overflow: hidden;
+}
+.cid-uZzxSoOzdR .media-container-row .mbr-text {
+  color: #ffffff;
 }
