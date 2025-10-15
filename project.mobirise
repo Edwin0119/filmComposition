@@ -29,7 +29,7 @@
         "isLargeButtons": true,
         "isGhostButtonBorder": true,
         "underlinedLinks": false,
-        "isAnimatedOnScroll": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
@@ -57,7 +57,8 @@
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 15,
-    "versionPublish": "6.1.4"
+    "versionPublish": "6.1.4",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
